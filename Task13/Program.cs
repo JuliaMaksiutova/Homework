@@ -6,6 +6,7 @@
 
 Console.WriteLine("Введите любое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
+a = Math.Abs(a);
 
 if(a<99)
 {
